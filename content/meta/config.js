@@ -2,8 +2,8 @@ module.exports = {
   siteTitle: "Madsen dialog", // <title>
   shortSiteTitle: "Madsen dialog", // <title> ending for posts and pages
   siteDescription: "Madsen dialog er en praktiserende filosof",
-  siteUrl: "",
-  pathPrefix: "/",
+  siteUrl: "https://madsendialog.netlify.com",
+   pathPrefix: "/",
   siteImage: "preview.jpg",
   siteLanguage: "nb",
 
@@ -17,7 +17,7 @@ module.exports = {
 
   /* manifest.json */
   manifestName: "Madsen dialog",
-  manifestShortName: "Madsen dialog", // max 12 characters
+  manifestShortName: "Madsendia", // max 12 characters
   manifestStartUrl: "/index.html",
   manifestBackgroundColor: "white",
   manifestThemeColor: "#666",
