@@ -1,4 +1,13 @@
-# Ørnforlag website repo
+# Madsen dialog website repo
+
+## legge til innlegg
+- naviger til /content/posts/
+- mappene heter " åååå-mm-dd--tittel-link " . 
+-- eks. mappe navn: .../ "2019-01-01--et-blogg-innlegg " <-her blir linken dittdomene.com/et-blogg-innlegg og satt til publisert dato 01/01/2019
+- Inne i mappen skal det opprettes en index.md fil. 
+- see eksempel og bruk "blogg malen" og endre mappe navnet til ønsket dato og tittel til relevant tittel med bindestrek. PS! husk -- mellom dato og tittel-link
+
+
 
 A [GatsbyJS](https://www.gatsbyjs.org/) project. <br /><br />
 
@@ -7,7 +16,7 @@ A [GatsbyJS](https://www.gatsbyjs.org/) project. <br /><br />
 
 website repo build on gatsbyjsith netlify for Continious Deployment and
 
-The starter was initially built for Gatsby v1. Now, thanks to [@mohsenkhanpour](https://github.com/mohsenkhanpour) it's [upgraded](https://github.com/greglobinski/gatsby-starter-hero-blog/issues/32) to Gatsby v2. Thank you Mohsen :)
+The starter was initially built for Gatsby v1. Now, Gatsby v2. Thank you Mohsen :)
 
 The original version of the starter is preserved as the branch `gatsby-v1`.
 
@@ -66,15 +75,11 @@ FB_APP_ID=...
 
 ### Instructions & tutorials
 
-- [How to install, setup and add new content to a Blog starter](https://dev.greglobinski.com/install-blog-starter/)
-- [Setup Algolia account for your GatsbyJS blog](https://dev.greglobinski.com/setup-algolia-account/)
-- More articles at [Front-end web development with Greg](https://dev.greglobinski.com/)
-
 
 ## Authors
 - Martin Andersen
 - Greg Lobinski 
 
-See also the list of [contributors](https://github.com/greglobinski/gatsby-starter-personal-blog/graphs/contributors) who participated in this project.
+
 
 
