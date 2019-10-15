@@ -1,0 +1,5 @@
+---
+title: footnote
+---
+
+- footnote text
