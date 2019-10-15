@@ -1,4 +1,3 @@
-import themeObjectFromYaml from "../theme/theme.yaml";
 import "typeface-open-sans";
 import FontFaceObserver from "fontfaceobserver";
 import PropTypes from "prop-types";
@@ -12,6 +11,8 @@ import Header from "../components/Header";
 export const ThemeContext = React.createContext(null);
 export const ScreenWidthContext = React.createContext(0);
 export const FontLoadedContext = React.createContext(false);
+
+import themeObjectFromYaml from "../theme/theme.yaml";
 
 class Layout extends React.Component {
   constructor() {
