@@ -31,7 +31,7 @@ const queries = [
 ];
 
 module.exports = {
-  // pathPrefix: config.pathPrefix,
+   pathPrefix: config.pathPrefix,
   siteMetadata: {
     title: config.siteTitle,
     description: config.siteDescription,
@@ -43,6 +43,7 @@ module.exports = {
         : "",
       indexName: process.env.ALGOLIA_INDEX_NAME ? process.env.ALGOLIA_INDEX_NAME : ""
     },
+    
     facebook: {
       appId: process.env.FB_APP_ID ? process.env.FB_APP_ID : ""
     }
@@ -56,7 +57,7 @@ module.exports = {
         component: require.resolve(`./src/layouts/`)
       }
     },
-    {
+ /*   {
       resolve: `gatsby-plugin-algolia`,
       options: {
         appId: process.env.ALGOLIA_APP_ID ? process.env.ALGOLIA_APP_ID : "",
@@ -64,8 +65,8 @@ module.exports = {
         indexName: process.env.ALGOLIA_INDEX_NAME ? process.env.ALGOLIA_INDEX_NAME : "",
         queries,
         chunkSize: 10000 // default: 1000
-      }
-    },
+      } 
+    },*/
     {
       resolve: `gatsby-source-filesystem`,
       options: {
